@@ -1,0 +1,6 @@
+project: kcp
+target: kcp-fuzz
+
+cmds:
+    - cmd: ./kcp-fuzz
+      libfuzzer: true

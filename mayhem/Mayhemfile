@@ -1,0 +1,6 @@
+project: kcp
+target: kcp-fuzz
+
+cmds:
+  - cmd: /mayhem/kcp-fuzz
+    libfuzzer: true
